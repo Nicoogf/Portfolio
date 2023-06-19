@@ -33,17 +33,19 @@
 
 
 .about__cards{
-    display: grid ;
-    grid-template-columns: repeat(3 , 1fr );
-    gap: 1.5 rem ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem ;
 }
 
 .about_card{
     background: var(--color-bg-variant) ;
     border: 1px solid transparent;
+    padding: 2rem;
     border-radius: 1rem ;
     text-align: center;
     transition: var(--transition) ;
+    
 }
 
 .about_card:hover{
