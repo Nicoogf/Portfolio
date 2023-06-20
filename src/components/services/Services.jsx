@@ -6,92 +6,76 @@ const Services = () => {
   return (
     <section id="services"> 
     
-    <h5>Lo que ofresco </h5>
-    <h2>Servicios</h2>
+    <h5>Certificaciones  </h5>
+    <h2>Oficiales</h2>
 
     <div className="container services__container">
-
+     
       <article className="service">
         <div className="service__head">
-          <h3>UI/UX Design</h3>
+          <h3>Universidad Tecnológica Nacional</h3>
+          <h6 className='services__small'>Tecnicatura intensiva de Desarrollo web</h6>
         </div>
 
         <ul className='service_list'>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Stack Inicial (HTML / CSS / Javascript)</p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> Boostrap </p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> ReactJs  </p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> Metodología ágil SCRUM </p>
           </li>
-       
+          <li>
+            <BiCheck  className='service__list-icon'/>
+            <p> Controlador de versiones </p>
+          </li>
 
         </ul>
       </article>
 
       <article className="service">
         <div className="service__head">
-          <h3>Web Development</h3>
+          <h3>Digital House</h3>
+          <h6 className='services__small'>Desarrollador Full Stack</h6>
         </div>
 
         <ul className='service_list'>
+
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Actividades y grupos: Equipo de desarrollo web </p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Node Js - Express</p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Programación orientada a objetos (POO) </p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p> EJS(motor de renderizado) </p>
+          </li>
+          <li>
+            <BiCheck  className='service__list-icon'/>
+            <p> Base de datos </p>
           </li>
        
-
         </ul>
       </article>
 
-      <article className="service">
-        <div className="service__head">
-          <h3>Content</h3>
-        </div>
 
-        <ul className='service_list'>
-          <li>
-            <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </li>
-          <li>
-            <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </li>
-          <li>
-            <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </li>
-          <li>
-            <BiCheck  className='service__list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </li>
-       
-
-        </ul>
-      </article>
-
+   
     </div>
     
     </section>

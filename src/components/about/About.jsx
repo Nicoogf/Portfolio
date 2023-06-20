@@ -2,8 +2,8 @@ import React from 'react';
 import "./about.css" ;
 import ME from "../../assets/me2.jpg" ;
 import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
+import { BsCloudCheck } from 'react-icons/bs';
+import { FcDiploma1 } from 'react-icons/fc';
 
 const About = () => {
   return (
@@ -37,24 +37,24 @@ const About = () => {
 
             
               <article className='about_card'> 
-                <FiUsers className='about__icon'/>
-                <h5>Clientes</h5>
-                <small>19 </small>
+                <BsCloudCheck className='about__icon'/>
+                <h5>Proyectos</h5>
+                <small> independientes </small>
               </article>
           
 
           
               <article className='about_card'> 
-                <VscFolderLibrary className='about__icon'/>
-                <h5>Proyectos</h5>
-                <small>+80</small>
+                <FcDiploma1 className='about__icon'/>
+                <h5>Certificados</h5>
+                <small>Oficiales</small>
               </article>
 
               
             </div>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem ut modi ducimus consectetur facilis omnis excepturi eum nihil vel quisquam porro reiciendis a iusto voluptatem eveniet nobis, repellendus veniam iste.
+            Soy un desarrollador Junior con conocimientos fullstack, motivado por embarcarme en mi primera experiencia laboral en el area IT y centrarme en el sector frontend
             </p>
 
             <a href="contact" className='btn btn-primary'>Contactame </a>

@@ -2,13 +2,16 @@ import React from 'react'
 import "./footer.css" ;
 import {FaFacebookF} from "react-icons/fa" ;
 import {FiInstagram} from "react-icons/fi" ;
-import {AiOutlineLinkedin} from "react-icons/ai"
+import {AiOutlineLinkedin} from "react-icons/ai" ;
+import logoTDLI from "../../assets/logo.png"
 
 const Footer = () => {
   return (
     <footer>
 
-      <a href="#" className='footer_logo'>NGF</a>
+      <a href="#" className='footer_logo'>
+        N G F
+      </a>
 
       <ul className='permalinks'>
 

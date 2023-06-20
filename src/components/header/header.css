@@ -31,6 +31,10 @@ header{
     bottom: 3rem ;
 }
 
+.header__socials{
+    font-size: 1.5rem;
+}
+
 .header__socials::after{
     content: "";
     width: 1px;
