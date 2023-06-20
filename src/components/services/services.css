@@ -9,7 +9,7 @@
     border-radius:  2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
-    transition: var(--transition);
+    transition: var(--transition);    
 }
 
 .service:hover{
@@ -31,7 +31,7 @@
     text-align: center;
 }
 
-.service_list{
+.service__list{
     padding: 2rem;
 }
 

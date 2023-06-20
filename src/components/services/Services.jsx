@@ -17,7 +17,7 @@ const Services = () => {
           <h6 className='services__small'>Tecnicatura intensiva de Desarrollo web</h6>
         </div>
 
-        <ul className='service_list'>
+        <ul className='service__list'>
           <li>
             <BiCheck  className='service__list-icon'/>
             <p>Stack Inicial (HTML / CSS / Javascript)</p>
@@ -48,11 +48,11 @@ const Services = () => {
           <h6 className='services__small'>Desarrollador Full Stack</h6>
         </div>
 
-        <ul className='service_list'>
+        <ul className='service__list'>
 
           <li>
             <BiCheck  className='service__list-icon'/>
-            <p>Actividades y grupos: Equipo de desarrollo web </p>
+            <p> Trabajo en grupos: Equipo de desarrollo web </p>
           </li>
           <li>
             <BiCheck  className='service__list-icon'/>
