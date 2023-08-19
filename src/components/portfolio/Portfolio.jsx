@@ -22,7 +22,7 @@ const Portfolio = () => {
             <p>HTML / CSS / Javascript</p>
             <div className="portfolio__items-cta">
             <a href="https://github.com/Nicoogf/snake" className='btn'> Repositorio Git</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://nicoogf.github.io/snake/" className='btn btn-primary' target='_blank'>Live Demo</a>
             </div>
       </article>
 
