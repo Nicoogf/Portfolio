@@ -36,7 +36,7 @@ const Portfolio = () => {
         <p>ReactJS</p>
         <div className="portfolio__items-cta">
         <a href="https://github.com/Nicoogf/tateti" className='btn'> Repositorio Git</a>
-        <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+        <a href="https://sweet-selkie-2bd664.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
         </div>
     </article>
 
