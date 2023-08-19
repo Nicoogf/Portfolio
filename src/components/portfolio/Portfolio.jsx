@@ -2,7 +2,6 @@ import React from 'react' ;
 import "./portfolio.css" ;
 import snakeScreen from  "../../assets/screen_snake.jpg" ;
 import tatetiScreen from "../../assets/tateti_screen.jpg" ;
-
 const Portfolio = () => {
   return (
    <section id="portfolio">
@@ -22,7 +21,7 @@ const Portfolio = () => {
             <p>HTML / CSS / Javascript</p>
             <div className="portfolio__items-cta">
             <a href="https://github.com/Nicoogf/snake" className='btn'> Repositorio Git</a>
-            <a href="https://nicoogf.github.io/snake/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://nicoogf.github.io/snake/" className='btn btn-primary' target='_blank' without rel="noreferrer">Live Demo</a>
             </div>
       </article>
 
@@ -36,9 +35,11 @@ const Portfolio = () => {
         <p>ReactJS</p>
         <div className="portfolio__items-cta">
         <a href="https://github.com/Nicoogf/tateti" className='btn'> Repositorio Git</a>
-        <a href="https://sweet-selkie-2bd664.netlify.app/" className='btn btn-primary' target='_blank'>Live Demo</a>
+        <a href="https://sweet-selkie-2bd664.netlify.app/" className='btn btn-primary' target='_blank' without rel="noreferrer">Live Demo</a>
         </div>
     </article>
+
+  
 
     </div>
 
