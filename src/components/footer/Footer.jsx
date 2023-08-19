@@ -3,19 +3,19 @@ import "./footer.css" ;
 import {FaFacebookF} from "react-icons/fa" ;
 import {FiInstagram} from "react-icons/fi" ;
 import {AiOutlineLinkedin} from "react-icons/ai" ;
-import logoTDLI from "../../assets/logo.png"
+
 
 const Footer = () => {
   return (
     <footer>
 
-      <a href="#" className='footer_logo'>
+      <a href="#header" className='footer_logo'>
         Nicolas Gabriel Falabella
       </a>
 
       <ul className='permalinks'>
 
-      <li><a href="">Inicio</a></li>
+      <li><a href="#header">Inicio</a></li>
       <li><a href="#about">Sobre Mi</a></li>
       <li><a href="#experience">Lenguajes</a></li>   
       <li><a href="#services">Certificados</a></li>

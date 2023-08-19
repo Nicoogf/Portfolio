@@ -36,7 +36,7 @@ const Contact = () => {
          <MdOutlineEmail className='contact__options-icon'/>
            <h4> Email </h4>
            <h5> Nicolasgfalabella@gmail.com </h5>
-           <a href="mailto:Nicolasgfalabella@gmail.com" target='_blank'> Enviar Mail </a>
+           <a href="mailto:Nicolasgfalabella@gmail.com" target='_blank' rel="noreferrer"> Enviar Mail </a>
 
        </article>
 
@@ -45,7 +45,7 @@ const Contact = () => {
         <BsWhatsapp className='contact__options-icon'/>
           <h4> Whatsapp </h4>
           <h5> Nicolas Falabella </h5>
-          <a href="https://api.whatsapp.com/send?phone=5492324584106" target='_blank'> Enviar Mensaje </a>
+          <a href="https://api.whatsapp.com/send?phone=5492324584106" target='_blank' rel="noreferrer"> Enviar Mensaje </a>
 
      </article>
 
@@ -54,7 +54,7 @@ const Contact = () => {
         <AiOutlineInstagram className='contact__option-icon' />
           <h4> Instagram </h4>
           <h5> nfalabella_ </h5>
-          <a href="https://www.instagram.com/nfalabella_/" target='_blank'> Ver Perfil </a>
+          <a href="https://www.instagram.com/nfalabella_/" target='_blank' rel="noreferrer"> Ver Perfil </a>
 
      </article>
 
