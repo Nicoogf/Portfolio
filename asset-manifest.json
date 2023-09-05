@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.26c4fe42.css",
+    "main.js": "/Portfolio/static/js/main.f72be25a.js",
+    "static/media/me.png": "/Portfolio/static/media/me.b2fd754ffe4b2bd24616.png",
+    "static/media/me2.jpg": "/Portfolio/static/media/me2.87c757d3aebdc627e5c9.jpg",
+    "static/media/cv.pdf": "/Portfolio/static/media/cv.c9b7ab249303c74483a8.pdf",
+    "static/media/tateti_screen.jpg": "/Portfolio/static/media/tateti_screen.8f2d24cfbfd28d0650cf.jpg",
+    "static/media/logo_xamp.jpg": "/Portfolio/static/media/logo_xamp.4b00ddb713bee6db0ed6.jpg",
+    "static/media/logo_postman.jpg": "/Portfolio/static/media/logo_postman.b1e3d432b3b64dcde1ef.jpg",
+    "static/media/logo_git.jpg": "/Portfolio/static/media/logo_git.1346580d4996386a47e0.jpg",
+    "static/media/logo_photoshop.jpg": "/Portfolio/static/media/logo_photoshop.3142ec71fc5c26a37674.jpg",
+    "static/media/screen_snake.jpg": "/Portfolio/static/media/screen_snake.e70cb95cabbf7a5acce6.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.26c4fe42.css.map": "/Portfolio/static/css/main.26c4fe42.css.map",
+    "main.f72be25a.js.map": "/Portfolio/static/js/main.f72be25a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26c4fe42.css",
+    "static/js/main.f72be25a.js"
+  ]
+}
